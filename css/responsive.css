@@ -1,0 +1,419 @@
+
+
+@media ( max-width: 991.98px ){
+
+    /* Navbar Part Starts Here */
+    .navbar-nav li {
+        background-color: black;
+        position: relative;
+    }
+
+    #navbar li a {
+        margin-top: 15px;
+    }
+
+    .navbar-nav li::after {
+        position: absolute;
+        content: "";
+        top: 50px;
+        left: 21px;
+        width: 248px;
+        height: 2px;
+        background-color: #acacac;
+        z-index: 2;
+    }
+    /* Navbar Part  Ends  Here */
+
+    /*  Banner Part CSS starts here  */
+
+    #banner .overlay {
+        padding: 140px 0;
+    }
+
+    .banner_text h3 {
+        font-size: 14px;
+        margin-bottom: 10px;
+        margin-top: 50px;
+    }
+
+    .banner_text h1 {
+        font-size: 30px;
+    }
+
+    .banner_text p {
+        font-size: 18px;
+        margin-bottom: 25px;
+        padding: 0 1%;
+
+    }
+
+    /*  Banner Part CSS  Ends Here  */
+
+    /*  Service Part CSS starts here  */
+
+    #service {
+        padding: 75px 0;
+    }
+
+    /*  Service Part CSS  Ends Here  */
+
+    /*  Portfolio Part CSS starts here  */
+
+    #portfolio {
+        padding: 75px 0;
+    }
+
+    .prt_content h4 {
+        background-color: black;
+    }
+
+    .prt_content h1 {
+        font-size: 28px;
+    }
+
+    .prt_content p {
+        font-size: var(--font-size-b1);
+        line-height: var(--line-height-b1);
+        color: var(--color-body);
+        margin: 0 0 20px;
+    }
+
+    /*  Portfolio Part CSS  Ends Here  */
+
+    /*  Work Part CSS starts here  */
+
+    .works {
+        padding-bottom: 60px;
+    }
+
+    .side_line::after {
+        left: 12px;
+    }
+
+    .circle {
+        left: -5px;
+    }
+
+    .circle2 {
+        left: -5px;
+    }
+
+    .work_box {
+        margin-left: 45px;
+        z-index: 2;
+    }
+
+    .work_box2 {
+        padding: 10px;
+    }
+
+    .gaap {
+        margin-right: 41px;
+    }
+
+    .para_box h6 {
+        margin-bottom: 14px;
+    }
+
+    .para_box h2 {
+        font-size: 28px;
+    }
+
+    .para_box p {
+        margin-top: 0;
+    }
+
+    .para_box .inner_row h5 {
+        font-size: 16px;
+    }
+
+    .col_box {
+        flex-direction: column-reverse;
+    }
+
+    .img_box img {
+        margin-bottom: 40px;
+    }
+
+
+    /*  Work Part CSS  Ends Here  */
+
+    /*  Bg-4 Part CSS starts here  */
+
+    #bg_4 {
+        padding-bottom: 60px;
+    }
+
+    .bg_4{
+        z-index: 2;
+    }
+    
+    .bg_4 .overlay {
+        padding: 180px 0;
+    }
+
+    .bg4 {
+        position: absolute;
+        content: '';
+        top: 156px;
+        left: 24px;
+    }
+
+    .bg4 h1 {
+        font-size: 20px;
+
+    }
+
+    .bg4 a svg {
+        height: 30px;
+        width: 30px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    
+    /*  Bg-4 Part CSS  Ends Here  */
+
+    /* Feedback Part CSS starts Here */
+
+    #feedback {
+        padding-top: 65px;
+    }
+
+    .form::after {
+        top: -102px;
+        left: -57px;
+        text-align: left;
+    }
+
+    .slide_gap {
+        margin-right: 23px;
+        margin-left: 23px;
+    }
+
+    .slider_row p {
+        font-size: 24px;
+    }
+
+    .PrevArr, .NxtArr {
+        display: none;
+    }
+
+    .feedback_prt {
+        padding-bottom: 60px;
+    }
+
+
+    /* Feedback Part CSS ends Here */
+
+    /* Blog Part CSS starts here */
+
+    #blog {
+        padding-top: 65px;
+    }
+
+    #blog .prt_content p {
+        margin-bottom: 55px;
+    }
+
+    .blg_pd {
+        z-index: 2;
+    }
+
+    .blog_col {
+        margin-bottom: 30px;
+    }
+
+    .blog_col img {
+        width: 100%;
+    }
+
+    .blog_main {
+        padding-bottom: 50px;
+    }
+
+    /* Blog Parrt CSS ends here */
+
+    /* Premium Offer Starts Here */
+
+    #premium {
+        padding-bottom: 60px;
+    }
+
+    .premium {
+        padding: 40px 30px;
+    }
+
+    .inner_premium h2 {
+        font-size: 26px;
+    }
+    
+    /* Premium Offer Ends Here */
+
+    /* Footer Part CSS starts here */
+
+    .footer_table ul {
+        padding-left: 0;
+    }
+
+    .footer_row {
+        padding-bottom: 55px;
+    }
+
+    .footer_form {
+        margin-top: 22px;
+    }
+
+    /* Footer Part CSS ends here */
+
+    /* Conclusion Part CSS starts here */
+
+    .conclusion ul {
+        margin: 0 6px;
+        justify-content: center;
+    }
+
+    .since {
+        text-align: center !important;
+    }
+
+    /* Conclusion Part CSS ends here */
+}
+
+@media ( min-width: 575px) and ( max-width: 576px ) {
+
+    .my_sm {
+        width: 50% !important;
+    }
+
+}
+
+@media ( min-width: 576px) and ( max-width: 767.98px ) {    
+
+}
+
+@media ( min-width: 768px) and ( max-width: 991.98px ) {
+
+    /* Banner Part Starts Here */
+
+    #banner .overlay {
+        padding: 180px 0;
+    }
+
+    .banner_text h1 {
+        font-size: 65px;
+    }
+
+    /* Banner Part Ends Here */
+
+    /* BG-4 Part Starts Here */
+
+    #bg_4 {
+        padding-top: 60px;
+    }
+
+    /* BG-4 Part Ends Here */
+
+    /* Slider Part starts here */
+
+    .PrevArr, 
+    .NxtArr {
+        display: none;
+    }
+
+
+    /* Slider Part Ends Here */
+
+    /* Premium Offer Part Starts Here */
+
+    #premium {
+        padding-top: 60px;
+    }
+
+    /* Premium Offer Part Ends Here */
+
+    /* Conclusion Part Starts Here */
+
+    .conclusion ul {
+        margin: 0 -28px;
+        display: block;
+    }
+
+    .since {
+        text-align: right !important;
+    }
+
+    /* Conclusion Part Ends Here */
+}
+
+@media ( min-width: 992px) and ( max-width: 1199.98px ) {
+
+    /* Navbar Part Starts Here */
+
+    #navbar li a {
+        padding: 0 10px;
+    }
+
+    .nav_btn a {
+        border-radius: 31px;
+        padding: 6px 20px;
+        margin-left: 16px;  
+    }
+
+    /* Navbar Part Ends Here */
+
+}
+
+@media ( min-width: 1200px) and ( max-width: 1399.98px ) {
+
+    /* Banner Part Starts Here */
+
+    #banner .overlay {
+        padding: 300px 0;
+        background: #000000;
+        opacity: 0.7;
+    }
+
+    /* Banner Part Ends Here */
+
+    /* Video Part Starts Here */
+
+    #bg_4 {
+        padding-top: 60px;
+    }
+
+    /* Video Part Ends Here */
+
+    /* Slider Part Starts Here */
+
+    .PrevArr, .NxtArr {
+        display: none !important;
+    }
+
+    /* Slider Part Ends Here */
+}
+
+@media ( min-width: 1400px) {
+
+    /* Nvbar Part Starts Here */
+
+    #navbar li a {
+        padding: 0 17px;
+        margin-top: 24px;
+        margin-bottom: 20px;
+    }
+
+    .nav_btn a {
+        line-height: 45px;
+        padding: 0 23px;
+        margin-top: 11px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+
+    .dark_mode a {
+        margin: 13px 14px;
+    }
+
+    /* Navbar Part ends here */
+
+}
